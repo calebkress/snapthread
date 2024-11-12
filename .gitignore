@@ -1,0 +1,40 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+
+# Uploads and processed files
+uploads/
+processed/
+
+# MongoDB
+*.log
+*.lock
+dump/
+journal/
+local/
+
+# Flask cache files
+*.sqlite3
+instance/
+
+# Environment variables
+.env
+
+# macOS and Linux system files
+.DS_Store
+Thumbs.db
+
+# Package files
+*.egg
+*.egg-info/
+dist/
+build/
+
+# IDE configurations
+.vscode/
+.idea/
